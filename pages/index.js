@@ -4,7 +4,7 @@ import Services from '../components/Services';
 import FormaInformation from '../components/Details';
 import FormaInformation2 from '../components/FormInformation2';
 import Footer from '../components/Footer';
-import Footer2 from '../components/SmallFooter2';
+import Footer2 from '../components/Small';
 
 export default function Home() {
   return (
