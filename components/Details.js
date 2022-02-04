@@ -18,7 +18,7 @@ export default function Forminformation() {
 
 
     return (
-        <div style={{ width: 646 }}>
+        <div style={{ width: 646,  }}>
             <Formik
                 initialValues={{ email: "", password: "", first: "", last: "", role: "", confirm: "", checkbox: "" }}
                 validationSchema={Yup.object({

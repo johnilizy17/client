@@ -18,7 +18,7 @@ export default function Forminformation() {
 
 
     return (
-        <div style={{ marginTop:-20 }}>
+        <div className="w-screen" style={{ marginTop:-20, paddingLeft:20, }}>
             <Formik
                 initialValues={{ email: "", password: "", first: "", last: "", role: "", confirm: "", checkbox: "" }}
                 validationSchema={Yup.object({
@@ -26,7 +26,6 @@ export default function Forminformation() {
                     last: Yup.string().required("Required"),
                     email: Yup.string().email('invalid email address').required('Required'),
                 })}
-
                 onSubmit={(values, { setSubmitting }) => {
 
                 }}
@@ -52,7 +51,7 @@ export default function Forminformation() {
                                         color: "#1E1E24",
                                         marginBottom: 12
                                     }}>Your Name </div>
-                                    <Field style={{  border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="first" name="first" placeholder="Your Name" />
+                                    <Field className="w-full" style={{  border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="first" name="first" placeholder="Your Name" />
                                     <div style={{ color: "red", marginBottom:20}}>
                                         <ErrorMessage name="first" />
                                     </div>
@@ -67,7 +66,7 @@ export default function Forminformation() {
                                         color: "#1E1E24",
                                         marginBottom: 12
                                     }}>Your Phone Number </div>
-                                    <Field style={{  border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="first" name="first" placeholder="Your Phone Number" />
+                                    <Field className="w-full" style={{  border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="first" name="first" placeholder="Your Phone Number" />
                                     <div style={{ color: "red" }}>
                                         <ErrorMessage name="first" />
                                     </div>
@@ -84,7 +83,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Business Email </div>
-                                <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="email" name="email" placeholder="Business Email" />
+                                <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="email" name="email" placeholder="Business Email" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="email" />
                                 </div>
@@ -99,7 +98,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Brand Name</div>
-                                <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="brand" placeholder="Brand Name" />
+                                <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="brand" placeholder="Brand Name" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="brand" />
                                 </div>
@@ -113,7 +112,7 @@ export default function Forminformation() {
                                         color: "#1E1E24",
                                         marginBottom: 12
                                     }}>Brand Website</div>
-                                    <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="website" placeholder="Brand Website" />
+                                    <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="website" placeholder="Brand Website" />
                                     <div style={{ color: "red" }}>
                                         <ErrorMessage name="website" />
                                     </div>
@@ -129,7 +128,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Brand Description</div>
-                                <Field component="textarea" style={{ width: 200, height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Description" placeholder="Brand Description" />
+                                <Field className="w-full" component="textarea" style={{ height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Description" placeholder="Brand Description" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="Description" />
                                 </div>
@@ -144,7 +143,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Industry of operation</div>
-                                <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="industry" placeholder="What industry(s) would you say you operate in" />
+                                <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="industry" placeholder="What industry(s) would you say you operate in" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="industry" />
                                 </div>
@@ -159,7 +158,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Geographical Location</div>
-                                <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="location" placeholder="Precise location would help us better" />
+                                <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="location" placeholder="Precise location would help us better" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="location" />
                                 </div>
@@ -173,7 +172,7 @@ export default function Forminformation() {
                                         color: "#1E1E24",
                                         marginBottom: 12
                                     }}>Target Client</div>
-                                    <Field component="textarea" style={{ width: 200, height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Description" placeholder="Describe your target client ( occupation, age...)" />
+                                    <Field className="w-full" component="textarea" style={{ height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Description" placeholder="Describe your target client ( occupation, age...)" />
                                     <div style={{ color: "red" }}>
                                         <ErrorMessage name="Description" />
                                     </div>
@@ -230,7 +229,7 @@ export default function Forminformation() {
                                 }}>
                                     Or is it a specific service need? Please describe
                                 </div>
-                                <Field component="textarea" style={{ width: 200, height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="client" placeholder="Description" />
+                                <Field className="w-full" component="textarea" style={{ height: 237, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="client" placeholder="Description" />
                             </div>
                             <div style={{
                                 marginTop: 40,
@@ -279,9 +278,9 @@ export default function Forminformation() {
                             }}>
                                 When are you ready to make commitment, commence and execute this project?
                             </div>
-                            <div style={{ marginTop: 20, marginBottom: 45.5 }}>
+                            <div  style={{ marginTop: 20, marginBottom: 45.5 }}>
                                 {time.map((data) => (<div key={data} className="flex items-center" style={{ marginBottom: 20 }}>
-                                    <Field type="radio" name="picked" value={data} style={{
+                                    <Field  type="radio" name="picked" value={data} style={{
                                         width: 24,
                                         height: 24,
                                         left: 4,
@@ -314,7 +313,7 @@ export default function Forminformation() {
                                     color: "#1E1E24",
                                     marginBottom: 12
                                 }}>Intened Deadline</div>
-                                <Field style={{ width: 200, border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Deadline" placeholder="Deadline" />
+                                <Field className="w-full" style={{ border: "0.5px solid #E3E3E3", padding: "12px 8px", boxSizing: "border-box", borderRadius: 4, }} type="text" name="Deadline" placeholder="Deadline" />
                                 <div style={{ color: "red" }}>
                                     <ErrorMessage name="Deadline" />
                                 </div>

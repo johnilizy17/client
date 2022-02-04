@@ -4,7 +4,7 @@ export default function Services(){
 
     
     return(
-        <div style={{marginBottom:85,}}>
+        <div style={{marginBottom:85, marginLeft:20}}>
           <div style={{
               width: 231,
               height: 21,

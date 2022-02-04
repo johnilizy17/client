@@ -15,7 +15,7 @@ export default function Home() {
         <Services />
         <FormaInformation/>
       </div>
-      <div className="lg:hidden" style={{marginLeft:20}}>
+      <div className="lg:hidden">
         <Services />
         <FormaInformation2/>
       </div>
