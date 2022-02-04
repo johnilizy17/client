@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import logo from '../asset/logo.png';
-import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 
 export default function Header() {
     return (<>
