@@ -16,17 +16,20 @@ export default function Services(){
           What services can we help you with
         </div>
         <div style={{marginTop:16}}>
-        <div className="flex items-center">
+        <div className="lg:flex lg:items-center">
         <SelectedButton title="Product Dev" width={145}/>
         <SelectedButton title="Web/App Dev" width={154}/>
         <SelectedButton title="Tech R&D" width={129}/>
         <SelectedButton title="Marketing" width={131}/>
         </div>
-        <div className="flex items-center" style={{marginTop:22}}>
+        <div className="sm:hidden flex items-center" style={{marginTop:22}}>
         <SelectedButton title="Business development" width={212}/>
         <SelectedButton title="Branding" width={124}/>
         </div>
-        
+        <div className="lg:hidden">
+        <SelectedButton title="Business development" width={212}/>
+        <SelectedButton title="Branding" width={124}/>
+        </div>
         </div>
         </div>
     )

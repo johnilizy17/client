@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function Footer() {
 
     return (
-        <div className="lg:flex lg:flex-col" style={{ paddingTop: 175, marginTop: 160, background: "#182C51" }}>
-            <div className="lg:flex" style={{ paddingLeft: 160, paddingRight: 160, flex: 1 }}>
+        <div className="lg:flex lg:flex-col" style={{ paddingTop: 20, marginTop:50, background: "#182C51" }}>
+            <div className="lg:flex" style={{ paddingLeft: 20, paddingRight: 20, flex: 1 }}>
                 <div style={{ flex: 0.40 }}>
                     <div style={{ marginBottom: 24, cursor: "pointer" }}>
                         <Image
@@ -29,8 +29,9 @@ export default function Footer() {
                     </div>
 
                     <div style={{
-                        marginTop: 36,
                         width: 144,
+                        marginTop:10,
+                        marginBottom:20,
                         display: "flex",
                         justifyContent: "space-between",
                         cursor: "pointer"
@@ -70,7 +71,7 @@ export default function Footer() {
                     <svg width="48" height="2" viewBox="0 0 48 2" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: 24 }}>
                         <line y1="1" x2="48" y2="1" stroke="#6FC446" strokeWidth="2" />
                     </svg>
-                    <ol>
+                    <ol  className="grid grid-cols-3">
                         <li style={{
                             fontFamily: "Open Sans",
                             fontWeight: "600",
@@ -131,7 +132,7 @@ export default function Footer() {
                         <line y1="1" x2="48" y2="1" stroke="#6FC446" strokeWidth="2" />
                     </svg>
 
-                    <ol>
+                    <ol  className="grid grid-cols-3">
                         <li style={{
                             fontFamily: "Open Sans",
                             fontWeight: "600",
@@ -243,14 +244,17 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className="flex justify-between items-center" style={{
+            <div 
+            
+            className="flex flex-col justify-center items-center"
+            style={{
                 backgroundColor: "#0D1D3B",
                 fontFamily: "Open Sans",
                 fontWeight: 600,
                 fontSize: 14,
                 fontFeatureSettings: "'salt' on, 'liga' off",
                 color: "#D9DBE1",
-                height: 72, paddingLeft: 160, paddingRight: 160, marginTop: 50
+                height: 72
             }}>
                 <div>
                     © 2022 Cycle Breeze. All rights reserved
