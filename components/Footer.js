@@ -68,7 +68,7 @@ export default function Footer() {
                         Services
                     </div>
                     <svg width="48" height="2" viewBox="0 0 48 2" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: 24 }}>
-                        <line y1="1" x2="48" y2="1" stroke="#6FC446" stroke-width="2" />
+                        <line y1="1" x2="48" y2="1" stroke="#6FC446" strokeWidth="2" />
                     </svg>
                     <ol>
                         <li style={{
@@ -128,7 +128,7 @@ export default function Footer() {
                         Quicklinks
                     </div>
                     <svg width="48" height="2" viewBox="0 0 48 2" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: 24 }}>
-                        <line y1="1" x2="48" y2="1" stroke="#6FC446" stroke-width="2" />
+                        <line y1="1" x2="48" y2="1" stroke="#6FC446" strokeWidth="2" />
                     </svg>
 
                     <ol>
@@ -187,7 +187,7 @@ export default function Footer() {
                         Contacts
                     </div>
                     <svg width="48" height="2" viewBox="0 0 48 2" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: 24 }}>
-                        <line y1="1" x2="48" y2="1" stroke="#6FC446" stroke-width="2" />
+                        <line y1="1" x2="48" y2="1" stroke="#6FC446" strokeWidth="2" />
                     </svg>
                     <ol>
                         <li style={{

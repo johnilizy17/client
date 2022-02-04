@@ -14,19 +14,19 @@ export default function Header() {
                 <div className="flex items-center">
                     Services
                     <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div className="flex items-center">
                     Academy
                     <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div className="flex items-center">
                     Products
                 <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div>
@@ -50,19 +50,19 @@ export default function Header() {
                 <div className="flex items-center">
                     Services
                     <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div className="flex items-center">
                     Academy
                     <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div className="flex items-center">
                     Products
                 <svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft:10.72}}>
-                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.28 1.46667L7.93333 5.81334C7.42 6.32668 6.58 6.32668 6.06667 5.81334L1.72 1.46667" stroke="#292D32" strokeWidth="1.5" strokemiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 <div>
