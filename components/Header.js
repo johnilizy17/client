@@ -47,7 +47,7 @@ export default function Header() {
                 Contact us
             </div>
         </div>
-        <div className={menubar ? "lg:hidden  bg-white mt-5 ml-5 mr-5 z-50 w-screen" : "lg:hidden  ml-3 h-screen bg-white z-50 w-screen -mt-8 fixed"}>
+        <div className={menubar ? "lg:hidden  bg-white mt-5 ml-5 mr-5 z-50 w-screen" : "lg:hidden  ml-3  h-screen bg-white z-50 w-screen -mt-8 fixed"}>
             <div className="lg:hidden sm:flex items-center ">
                 <div className="cursor-pointer" style={{ flex: 1 }} >
                     <Image src={logo} alt="Cyclebreeze logo" object-fit="contain" height={40}  />
@@ -59,7 +59,7 @@ export default function Header() {
                         setmenubar(true)
                     }
                 }}>
-                    {menubar ? <HiMenuAlt3 style={{ width: 50, height: 50 }} />
+                    {menubar ? <HiMenuAlt3 style={{ width: 50, height: 50 , marginRight:15 }} />
                         : <FiX style={{ width: 50, height: 50, color: "#3e4095", marginRight:15 }} />}
                 </div>
             </div>
